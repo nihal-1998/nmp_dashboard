@@ -71,7 +71,7 @@ const ProductTable = ({ products, meta, currentPage, setCurrentPage, pageSize, s
           {/* <img src={val} alt="icon" className="w-12 h-12 rounded-md" /> */}
           <img
             src={val}
-            alt="profile"
+            alt="product"
             className="w-[45px] h-[45px] rounded-lg"
             onError={(e) => {
               e.currentTarget.onerror = null;
