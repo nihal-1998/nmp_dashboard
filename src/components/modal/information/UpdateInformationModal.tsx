@@ -82,8 +82,8 @@ const UpdateInformationModal = ({ information }: TProps) => {
                 Update Information
               </h2>
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-                <CustomInput label="Title" name="title" type="text" control={control} placeholder="Enter email address"/>
-                <CustomInput label="Sub Title" name="subTitle" type="text" control={control} placeholder="Enter email address"/>
+                <CustomInput label="Title (Optional) " name="title" type="text" control={control} placeholder="Enter title"/>
+                <CustomInput label="Sub Title(Optional)" name="subTitle" type="text" control={control} placeholder="Enter sub title"/>
                 <CustomInput label="Email" name="email" type="text" control={control} placeholder="Enter email address"/>
                 <CustomInput label="Contact Number" name="phone" type="text" control={control} placeholder="Enter contact number"/>
                 <CustomInput label="Address" name="address" type="text" control={control} placeholder="Enter Address"/>

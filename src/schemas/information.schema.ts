@@ -4,17 +4,15 @@ export const informationSchema = z.object({
   title: z
     .string({
       invalid_type_error: "title must be string",
-      required_error: "title is required",
     })
     .trim()
-    .min(1, "title is required"),
+    .optional(),
   subTitle: z
     .string({
       invalid_type_error: "subTitle must be string",
-      required_error: "subTitle is required",
     })
     .trim()
-    .min(1, "subTitle is required"),
+    .optional(),
   email: z
     .string({
       invalid_type_error: "email must be string",
