@@ -6,6 +6,7 @@ import ListLoading from "../loader/ListLoading";
 import ServerErrorCard from "../card/ServerErrorCard";
 import { useGetTypeDropDownQuery } from "../../redux/features/type/typeApi";
 import { useAppSelector } from "../../redux/hooks/hooks";
+import ExportFlavorData from "./ExportFlavorData";
 const FlavorTable = React.lazy(() => import("./FlavorTable"));
 
 
@@ -104,7 +105,7 @@ const FlavorList = () => {
               />
             </div>
             <CreateFlavorModal />
-            {/* <ExportFlavorData/> */}
+            <ExportFlavorData/>
           </div>
         </div>
         {content}

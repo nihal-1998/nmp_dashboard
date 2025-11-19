@@ -4,6 +4,7 @@ import ListLoading from "../loader/ListLoading";
 import ServerErrorCard from "../card/ServerErrorCard";
 import { useGetTypesQuery } from "../../redux/features/type/typeApi";
 import CreateTypeModal from "../modal/type/CreateTypeModal";
+import ExportTypeData from "./ExportTypeData";
 const TypeTable = React.lazy(() => import("./TypeTable"));
 
 
@@ -85,7 +86,7 @@ const TypeList = () => {
             />
           </div>
           <CreateTypeModal />
-          {/* <ExportTypeData/> */}
+          <ExportTypeData/>
         </div>
       </div>
       {content}

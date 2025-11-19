@@ -6,6 +6,7 @@ import ListLoading from "../loader/ListLoading";
 import ServerErrorCard from "../card/ServerErrorCard";
 import { useGetTypeDropDownQuery } from "../../redux/features/type/typeApi";
 import { useAppSelector } from "../../redux/hooks/hooks";
+import ExportBrandData from "./ExportBrandData";
 const BrandTable = React.lazy(() => import("./BrandTable"));
 
 
@@ -109,7 +110,7 @@ const BrandList = () => {
               />
             </div>
             <CreateBrandModal />
-            {/* <ExportBrandData/> */}
+            <ExportBrandData/>
           </div>
         </div>
         {content}
