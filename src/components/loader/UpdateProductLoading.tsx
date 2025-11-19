@@ -22,13 +22,13 @@ export default function UpdateProductLoading() {
         {/* Name */}
         <div className="space-y-2">
           <div className="h-4 w-12 bg-gray-200 rounded animate-pulse"></div>
-          <div className="h-10 w-full bg-gray-200 rounded border animate-pulse"></div>
+          <div className="h-10 w-full bg-gray-200 rounded  animate-pulse"></div>
         </div>
 
         {/* Category */}
         <div className="space-y-2">
           <div className="h-4 w-16 bg-gray-200 rounded animate-pulse"></div>
-          <div className="h-10 w-full bg-gray-200 rounded border animate-pulse relative">
+          <div className="h-10 w-full bg-gray-200 rounded  animate-pulse relative">
             <div className="absolute right-3 top-1/2 transform -translate-y-1/2 h-4 w-4 bg-gray-300 rounded animate-pulse"></div>
           </div>
         </div>
@@ -36,13 +36,13 @@ export default function UpdateProductLoading() {
         {/* Current Price */}
         <div className="space-y-2">
           <div className="h-4 w-24 bg-gray-200 rounded animate-pulse"></div>
-          <div className="h-10 w-full bg-gray-200 rounded border animate-pulse"></div>
+          <div className="h-10 w-full bg-gray-200 rounded  animate-pulse"></div>
         </div>
 
         {/* Old Price */}
         <div className="space-y-2">
           <div className="h-4 w-32 bg-gray-200 rounded animate-pulse"></div>
-          <div className="h-10 w-full bg-gray-200 rounded border animate-pulse"></div>
+          <div className="h-10 w-full bg-gray-200 rounded  animate-pulse"></div>
         </div>
       </div>
 
@@ -51,13 +51,13 @@ export default function UpdateProductLoading() {
         {/* Colors */}
         <div className="space-y-2">
           <div className="h-4 w-24 bg-gray-200 rounded animate-pulse"></div>
-          <div className="h-10 w-full bg-gray-200 rounded border animate-pulse"></div>
+          <div className="h-10 w-full bg-gray-200 rounded  animate-pulse"></div>
         </div>
 
         {/* Sizes */}
         <div className="space-y-2">
           <div className="h-4 w-20 bg-gray-200 rounded animate-pulse"></div>
-          <div className="h-10 w-full bg-gray-200 rounded border animate-pulse"></div>
+          <div className="h-10 w-full bg-gray-200 rounded  animate-pulse"></div>
         </div>
 
         {/* Empty space for layout */}
@@ -69,7 +69,7 @@ export default function UpdateProductLoading() {
         {/* Status */}
         <div className="space-y-2">
           <div className="h-4 w-20 bg-gray-200 rounded animate-pulse"></div>
-          <div className="h-10 w-full bg-gray-200 rounded border animate-pulse relative">
+          <div className="h-10 w-full bg-gray-200 rounded  animate-pulse relative">
             <div className="absolute right-3 top-1/2 transform -translate-y-1/2 h-4 w-4 bg-gray-300 rounded animate-pulse"></div>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function UpdateProductLoading() {
         {/* Stock Status */}
         <div className="space-y-2">
           <div className="h-4 w-28 bg-gray-200 rounded animate-pulse"></div>
-          <div className="h-10 w-full bg-gray-200 rounded border animate-pulse relative">
+          <div className="h-10 w-full bg-gray-200 rounded  animate-pulse relative">
             <div className="absolute right-3 top-1/2 transform -translate-y-1/2 h-4 w-4 bg-gray-300 rounded animate-pulse"></div>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function UpdateProductLoading() {
         {/* Discount */}
         <div className="space-y-2">
           <div className="h-4 w-24 bg-gray-200 rounded animate-pulse"></div>
-          <div className="h-10 w-full bg-gray-200 rounded border animate-pulse"></div>
+          <div className="h-10 w-full bg-gray-200 rounded  animate-pulse"></div>
         </div>
       </div>
 
@@ -94,7 +94,7 @@ export default function UpdateProductLoading() {
         <div className="h-4 w-32 bg-gray-200 rounded animate-pulse mb-4"></div>
 
         {/* Rich Text Editor Toolbar */}
-        <div className="border rounded-t-lg p-2 bg-gray-50">
+        <div className=" rounded-t-lg p-2 bg-gray-50">
           <div className="flex items-center gap-2">
             <div className="h-6 w-6 bg-gray-200 rounded animate-pulse"></div>
             <div className="h-6 w-6 bg-gray-200 rounded animate-pulse"></div>
@@ -120,20 +120,20 @@ export default function UpdateProductLoading() {
         </div>
 
         {/* Text Editor Content Area */}
-        <div className="border border-t-0 rounded-b-lg p-4 h-32 bg-white">
+        <div className=" -t-0 rounded-b-lg p-4 h-32 bg-white">
           <div className="h-4 w-20 bg-gray-200 rounded animate-pulse"></div>
         </div>
       </div>
 
       {/* Separator */}
-      <div className="border-t border-gray-200 mb-8"></div>
+      <div className="-t -gray-200 mb-8"></div>
 
       {/* Description */}
       <div>
         <div className="h-4 w-20 bg-gray-200 rounded animate-pulse mb-4"></div>
 
         {/* Rich Text Editor Toolbar */}
-        <div className="border rounded-t-lg p-2 bg-gray-50">
+        <div className=" rounded-t-lg p-2 bg-gray-50">
           <div className="flex items-center gap-2">
             <div className="h-6 w-6 bg-gray-200 rounded animate-pulse"></div>
             <div className="h-6 w-6 bg-gray-200 rounded animate-pulse"></div>
@@ -159,7 +159,7 @@ export default function UpdateProductLoading() {
         </div>
 
         {/* Text Editor Content Area */}
-        <div className="border border-t-0 rounded-b-lg p-4 h-40 bg-white">
+        <div className=" -t-0 rounded-b-lg p-4 h-40 bg-white">
           <div className="space-y-2">
             <div className="h-4 w-full bg-gray-200 rounded animate-pulse"></div>
             <div className="h-4 w-3/4 bg-gray-200 rounded animate-pulse"></div>

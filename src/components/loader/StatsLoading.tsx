@@ -3,7 +3,7 @@ export default function StatsLoading () {
     <div className="w-full mx-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
         {/* Card 1 Skeleton */}
-        <div className="bg-white rounded-lg shadow-sm border p-6 animate-pulse">
+        <div className="bg-white rounded-lg shadow-sm   p-6 animate-pulse">
           <div className="flex items-center space-x-4">
             {/* Icon skeleton */}
             <div className="w-12 h-12 bg-blue-100 rounded-lg shrink-0">
@@ -19,7 +19,7 @@ export default function StatsLoading () {
         </div>
 
         {/* Card 2 Skeleton */}
-        <div className="bg-white rounded-lg shadow-sm border p-6 animate-pulse">
+        <div className="bg-white rounded-lg shadow-sm  p-6 animate-pulse">
           <div className="flex items-center space-x-4">
             {/* Icon skeleton */}
             <div className="w-12 h-12 bg-cyan-100 rounded-lg shrink-0">
@@ -35,7 +35,7 @@ export default function StatsLoading () {
         </div>
 
         {/* Card 3 Skeleton */}
-        <div className="bg-white rounded-lg shadow-sm border p-6 animate-pulse">
+        <div className="bg-white rounded-lg shadow-sm  p-6 animate-pulse">
           <div className="flex items-center space-x-4">
             {/* Icon skeleton */}
             <div className="w-12 h-12 bg-red-100 rounded-lg shrink-0">
@@ -51,7 +51,7 @@ export default function StatsLoading () {
         </div>
 
         {/* Card 4 Skeleton */}
-        <div className="bg-white rounded-lg shadow-sm border p-6 animate-pulse">
+        <div className="bg-white rounded-lg shadow-sm  p-6 animate-pulse">
           <div className="flex items-center space-x-4">
             {/* Icon skeleton */}
             <div className="w-12 h-12 bg-purple-100 rounded-lg shrink-0">
