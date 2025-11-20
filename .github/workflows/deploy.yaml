@@ -65,13 +65,13 @@ jobs:
           ssh $EC2_USER@$EC2_HOST "echo \"$ENV_FILE\" > ~/nmp_dashboard/.env"
           
           # install production dependencies on EC2
-          ssh $EC2_USER@$EC2_HOST "cd ~/nmp_dashboard && export PATH=$PATH:/run/user/1000/fnm_multishells/6355_1763557609180/bin && yarn install --frozen-lockfile"
+          ssh $EC2_USER@$EC2_HOST "cd ~/nmp_dashboard && export PATH=$PATH:/run/user/1000/fnm_multishells/1719_1763612589726/bin && yarn install --frozen-lockfile"
           
           # Stop existing PM2 process if it exists
-          ssh $EC2_USER@$EC2_HOST "cd ~/nmp_dashboard && export PATH=$PATH:/run/user/1000/fnm_multishells/6355_1763557609180/bin && pm2 delete nmp_dashboard || true"
+          ssh $EC2_USER@$EC2_HOST "cd ~/nmp_dashboard && export PATH=$PATH:/run/user/1000/fnm_multishells/1719_1763612589726/bin && pm2 delete nmp_dashboard || true"
 
           # Start the nmp_dashboardlication with PM2
-          ssh $EC2_USER@$EC2_HOST "cd ~/nmp_dashboard && export PATH=$PATH:/run/user/1000/fnm_multishells/6355_1763557609180/bin && pm2 serve dist 5173 --name nmp_dashboard --spa"
+          ssh $EC2_USER@$EC2_HOST "cd ~/nmp_dashboard && export PATH=$PATH:/run/user/1000/fnm_multishells/1719_1763612589726/bin && pm2 serve dist 5173 --name nmp_dashboard --spa"
   
   
 
