@@ -4,7 +4,7 @@ import TagTypes from "../../../constant/tagType.constant.ts";
 import { getToken } from "../../../helper/SessionHelper.ts";
 import { ErrorToast } from "../../../helper/ValidationHelper.ts";
 
-export const baseUrl = "http://13.61.89.160:9090/api/v1";
+export const baseUrl = "https://backend.qwikr.us/api/v1";
 //export const baseUrl = "http://10.10.20.24:9090/api/v1";
 //export const baseUrl = "https://nmp-backend.vercel.app/api/v1";
 
