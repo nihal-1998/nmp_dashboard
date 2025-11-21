@@ -9,7 +9,7 @@ type TProps = {
 const OrderProductItem = ({ product }: TProps) => {
   return (
     <>
-          <div className="flex flex-col sm:flex-row gap-4 p-4 border rounded-lg">
+          <div className="flex flex-col sm:flex-row gap-4 p-4 border border-gray-300 rounded-lg">
               <div className="flex-shrink-0">
                   <img
                       src={product?.image || product_placeholder}

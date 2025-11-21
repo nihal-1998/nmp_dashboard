@@ -45,7 +45,7 @@ const OrderDetails = ({order}: TProps) =>{
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-6">
             {/* Order Status Timeline */}
-            <div className="bg-white rounded-lg shadow-sm border p-6">
+            <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
                 <Truck className="w-5 h-5 mr-2" />
                 Order Status
@@ -77,7 +77,7 @@ const OrderDetails = ({order}: TProps) =>{
             </div>
 
             {/* Products */}
-            <div className="bg-white rounded-lg shadow-sm border p-6">
+            <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-lg font-semibold text-gray-900 mb-4">Order Items ({order?.products.length})</h2>
               <div className="space-y-4">
                 {order?.products?.map((product, index) => (
@@ -90,7 +90,7 @@ const OrderDetails = ({order}: TProps) =>{
           {/* Sidebar */}
           <div className="space-y-6">
             {/* Order Summary */}
-            <div className="bg-white rounded-lg shadow-sm border p-6">
+            <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-lg font-semibold text-gray-900 mb-4">Order Summary</h2>
               <div className="space-y-3">
                 <div className="flex justify-between text-sm">
@@ -114,7 +114,7 @@ const OrderDetails = ({order}: TProps) =>{
             </div>
 
             {/* Order Information */}
-            <div className="bg-white rounded-lg shadow-sm border p-6">
+            <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-lg font-semibold text-gray-900 mb-4">Cutomer Information</h2>
               <div className="space-y-3">
                 <div className="flex items-start">
@@ -140,7 +140,7 @@ const OrderDetails = ({order}: TProps) =>{
                 </div>
               </div>
             </div>
-            <div className="bg-white rounded-lg shadow-sm border p-6">
+            <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-lg font-semibold text-gray-900 mb-4">Shipping Information</h2>
               <div className="space-y-3">
                 <div className="flex items-start">
@@ -173,7 +173,7 @@ const OrderDetails = ({order}: TProps) =>{
                 </div>
               </div>
             </div>
-            <div className="bg-white rounded-lg shadow-sm border p-6">
+            <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-lg font-semibold text-gray-900 mb-4">Order Information</h2>
               <div className="space-y-3">
                 <div className="flex items-start">
@@ -199,22 +199,6 @@ const OrderDetails = ({order}: TProps) =>{
                 </div>
               </div>
             </div>
-
-            {/* Actions */}
-            {/* <div className="bg-white rounded-lg shadow-sm border p-6">
-              <h2 className="text-lg font-semibold text-gray-900 mb-4">Actions</h2>
-              <div className="space-y-3">
-                <button className="w-full bg-gray-900 text-white py-2 px-4 rounded-lg hover:bg-gray-800 transition-colors">
-                  Track Package
-                </button>
-                <button className="w-full border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
-                  Download Invoice
-                </button>
-                <button className="w-full border border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
-                  Contact Support
-                </button>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

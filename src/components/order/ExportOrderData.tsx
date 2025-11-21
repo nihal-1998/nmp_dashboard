@@ -112,7 +112,7 @@ const ExportOrderData = () => {
     return (
         <>
             <Dropdown menu={{ items }} placement="bottomRight">
-                <button disabled={isLoading} className="px-3 flex gap-2 py-1 lg:py-2 text-white bg-blue-500 hover:bg-blue-600 duration-200 rounded-md disabled:cursor-not-allowed">
+                <button disabled={isLoading} className="px-3 w-full sm:w-auto flex justify-center cursor-pointer gap-2 py-2 lg:py-2 text-white bg-blue-500 hover:bg-blue-600 duration-200 rounded-md disabled:cursor-not-allowed">
                     <Download />Export Data</button>
             </Dropdown>
         </>

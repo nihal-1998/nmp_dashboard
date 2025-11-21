@@ -1,7 +1,7 @@
 import { Table, ConfigProvider, Pagination } from "antd";
 import { Edit, Eye } from "lucide-react";
 import type { IMeta } from "../../types/global.type";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import product_placeholder from "../../assets/images/product_placeholder.png";
 import type { IProduct, TProductDataSource, TProductStatus, TStockStatus } from "../../types/product.type";
 import { FaStar } from "react-icons/fa";
@@ -22,6 +22,7 @@ type TProps = {
 
 
 const ProductTable = ({ products, meta, currentPage, setCurrentPage, pageSize, setPageSize, loading }: TProps) => {
+   const navigate = useNavigate();
 
   const dataSource: TProductDataSource[] = products?.map((product, index) => ({
     key: index,
@@ -223,12 +224,12 @@ const ProductTable = ({ products, meta, currentPage, setCurrentPage, pageSize, s
       width: 115,
       render: (productId: string) => (
         <div className="flex items-center gap-2">
-          <Link
-            to={`/update-product/${productId}`}
-            className="bg-green-600 hover:bg-green-700 p-2 text-white rounded-full"
+          <button
+            onClick={()=>navigate(`/update-product/${productId}`)}
+            className="bg-green-600 hover:bg-green-700 p-2 text-white cursor-pointer rounded-full"
           >
             <Edit size={18} />
-          </Link>
+          </button>
           <DeleteProductModal productId={productId} />
         </div>
       ),
@@ -288,7 +289,7 @@ const ProductTable = ({ products, meta, currentPage, setCurrentPage, pageSize, s
         />
       </div>
       {meta?.total > 0 && (
-        <div className="p-8 bg-white border-t shadow-md flex justify-center">
+        <div className="p-8 bg-white border-t border-gray-200 shadow-md flex justify-center">
           <Pagination
             onChange={handlePagination}
             current={currentPage}

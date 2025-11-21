@@ -143,7 +143,7 @@ const FlavorTable = ({
         />
       </div>
       {meta?.total > 0 && (
-        <div className="p-8 bg-white border-t shadow-md flex justify-center">
+        <div className="p-8 bg-white border-t border-gray-200 shadow-md flex justify-center">
           <Pagination
             onChange={handlePagination}
             current={currentPage}
