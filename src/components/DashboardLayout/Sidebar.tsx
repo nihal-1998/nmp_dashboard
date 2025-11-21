@@ -83,7 +83,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, closeSidebar }) => {
         </nav>
 
         {/* User Profile Area */}
-        <div className="p-4 border-t border-slate-700">
+        <div className="p-4 border-t border-gray-300">
           <div onClick={()=>logout()} className="flex items-center space-x-2 cursor-pointer hover:bg-slate-700 hover:text-white p-2 rounded-md duration-200">
             <MdLogout/>
             <span className="text-semibold">Logout</span>
