@@ -69,9 +69,9 @@ const ProductList = () => {
 
   return (
     <>
-      <div className="p-4 flex justify-between lg:flex-row lg:items-center lg:justify-between gap-6">
+      <div className="p-4 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
         {/* LEFT SIDE */}
-        <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-8">
+        <div className="flex justify-between sm:flex-row sm:items-center gap-3 sm:gap-8">
           <h1 className="text-lg sm:text-xl font-semibold text-gray-800">
             Product List
           </h1>
