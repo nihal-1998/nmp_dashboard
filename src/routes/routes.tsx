@@ -90,7 +90,7 @@ const router = createBrowserRouter([
     path: "/auth",
     element: (
       <PublicRoute>
-        {withSuspense(<AuthLayout />)}
+        {<AuthLayout />}
       </PublicRoute>
     ),
     children: [
